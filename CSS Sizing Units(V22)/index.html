@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing Units</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 12px;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 1920px; */
+            width: 80vw;
+            /*vw means viewport width*/
+            margin: auto;
+            height: 10vh;
+            /*vh means viewport height*/
+            background-color: aquamarine;
+        }
+
+        .container {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 1920px; */
+            width: 80vw;
+            /*vw means viewport width*/
+            margin: 23px auto;
+            /* height: 80vh; */
+            /*vh means viewport height*/
+            min-height: 80vh;
+            font-size: 20px;
+            background-color: aquamarine;
+        }
+
+        .container > div {
+            /* font-size: 2em; */
+            font-size: 2rem;
+            /*rem means root element*/
+            /*em means element*/
+            width: 50%;
+            border: 2px solid red;
+        }
+
+        .container > div > div{
+                border: 2px solid blue;
+                width: 50%;
+        }
+
+        .mycont {
+            border: 2px solid black;
+            box-sizing: border-box;
+            margin: 23px auto;
+            color: rgb(31, 31, 19);
+            font-size: 22px;
+            /* width: 100vmin; */
+            width: 80vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">This is a box</div>
+    <div class="container">
+        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam est voluptas facere! Velit aperiam nihil saepe
+            sit, ex magni necessitatibus a officiis blanditiis! In reprehenderit aspernatur repellat corporis, dolores
+            accusantium culpa dolorem quae. Harum nesciunt quisquam eum veniam sint placeat officiis voluptates alias
+            esse tempora.
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolore id iure similique officia repellat, odit temporibus quidem nisi sed maxime non omnis.</div>
+        
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique deserunt, aspernatur quidem ipsam perferendis ex dolores natus delectus inventore perspiciatis possimus unde assumenda, sed repudiandae ipsa fugiat. Iure, ullam architecto optio error laudantium dicta placeat iste corrupti possimus consequuntur eum ea nam reiciendis, repudiandae perspiciatis assumenda officiis? Similique, alias reiciendis praesentium harum quibusdam rerum a hic delectus, ipsum repellendus sit iste dolorem quae veritatis autem numquam. Reprehenderit, modi. Illum vel officia eos corporis voluptatibus culpa error beatae ipsa laborum, id labore sint fugit consequuntur molestias sed porro voluptates nostrum iusto cumque dicta accusamus quidem dignissimos similique! Deleniti praesentium nostrum in recusandae vero. Unde porro officiis accusamus doloribus voluptate mollitia necessitatibus recusandae quia deleniti, tempore voluptatum nobis iste vero ab perspiciatis temporibus a quasi alias eaque aliquam laborum? Adipisci sint eligendi unde nihil esse et aliquam accusantium ea modi, quidem, obcaecati quibusdam. Animi, dignissimos repudiandae adipisci minima similique commodi quisquam ipsa repellat enim explicabo soluta veritatis tempore corrupti ad accusamus quae delectus harum, at rerum. Eveniet, ab quo aliquid numquam voluptas odit consequuntur fuga, quisquam distinctio saepe laudantium omnis sunt repellat delectus assumenda voluptatibus odio obcaecati magni facere dignissimos molestiae. Ab unde temporibus tempore, iusto laudantium animi molestiae consequatur repellat accusamus deserunt itaque similique odio praesentium soluta sed cumque commodi. Nostrum minus enim deserunt nam ipsum delectus, molestiae unde in maiores eum, eligendi quibusdam esse repellat reprehenderit doloribus? Optio, esse enim? Alias facilis fugit facere hic pariatur rerum velit impedit vel dolores fugiat quia, a inventore mollitia optio nulla, tenetur modi blanditiis debitis porro quisquam repellat nisi sequi ex? Eveniet velit at, quasi totam quis, a natus quod obcaecati suscipit itaque asperiores deleniti eligendi veritatis non. Mollitia, alias velit sed aliquam maiores in tempora id eligendi quasi voluptatibus perspiciatis corrupti neque labore, impedit culpa veniam tenetur libero repudiandae illum et ab molestiae. Delectus officia possimus laborum inventore laboriosam nobis suscipit libero, voluptatibus, natus nihil culpa recusandae eligendi optio et aliquam deleniti ea pariatur sed, fugit itaque. Aspernatur autem consequatur laudantium natus assumenda amet libero, facilis ipsum illo non ducimus porro, sapiente repellat rem nisi veritatis ut quasi laborum ab, repellendus omnis? Odit sed, voluptas rerum doloremque itaque ullam iure sunt quia explicabo numquam praesentium alias sit deserunt totam similique eos quasi! Veritatis neque nisi, quibusdam dicta eius sit officia expedita non fugiat eveniet, sunt rerum odio minus, ipsam aliquid pariatur nulla repellat. Maiores excepturi, dolorum dicta minus voluptatibus, velit distinctio necessitatibus in, dolore perferendis suscipit beatae. Velit obcaecati, a quos explicabo error illo, labore sed corrupti ad atque impedit. Inventore asperiores beatae quasi et esse consectetur, eveniet exercitationem odit cumque debitis cupiditate id? Minus et, optio dolores explicabo, nostrum doloremque deserunt, obcaecati sit veniam voluptatibus delectus quibusdam corrupti? Omnis quasi adipisci, totam deleniti qui enim doloribus reprehenderit perferendis molestiae aut voluptatibus alias ullam tempora? Laudantium accusantium mollitia totam facere atque tempore consectetur exercitationem? Eos ea vel nobis natus alias at similique, impedit quo in porro enim nihil culpa, unde recusandae ex delectus ab suscipit ut quas laudantium nulla dolorum fugit. Ex aliquid commodi earum exercitationem! Odit atque illo sequi cumque, ex labore ipsa aspernatur temporibus architecto provident corrupti rem, facilis placeat numquam laborum quasi libero recusandae. Molestias facere, enim, assumenda quae praesentium voluptatem dolorem sunt porro fugiat aliquam quisquam doloribus dolor. Fugiat eos repudiandae sapiente quis doloremque explicabo, obcaecati deleniti quasi possimus placeat blanditiis iure similique et nesciunt cumque. Officia nemo natus debitis aperiam commodi asperiores laudantium consectetur distinctio quae nesciunt fuga accusantium repellendus inventore alias vitae autem praesentium ullam enim nihil, labore, sint sequi. Amet, aspernatur! Cumque ullam quasi unde nulla vel libero, veniam, molestias doloribus nesciunt similique voluptates perspiciatis asperiores et vero, fugiat eius ea. Ex laboriosam veritatis eveniet provident mollitia? In corrupti officia numquam quod, harum similique eius, dolore adipisci quis repellendus labore perspiciatis culpa ab. Assumenda hic repudiandae explicabo fugit est. Minus eveniet corrupti voluptatibus! Eaque rem qui fuga perspiciatis odit natus incidunt repellendus, nam quae minus accusamus, voluptates necessitatibus doloribus temporibus alias? Blanditiis, quos eos? Autem, libero quos molestias odio aliquid eos rerum. Nam harum sit ducimus, quaerat iste adipisci assumenda illo et voluptatem autem blanditiis quos magni totam odio enim quae, ut ab, perspiciatis distinctio! Deleniti officia, impedit commodi numquam dolor sed quidem molestiae corrupti eaque aperiam. Aliquid consequatur earum molestiae corrupti iure asperiores dicta rerum, reiciendis deleniti itaque inventore? Sint inventore deserunt architecto dolore cumque vero optio non officiis dolores tenetur velit fuga, ullam a hic libero perspiciatis in, laudantium explicabo expedita labore. Sint mollitia nemo illum voluptate. Nemo quo quasi quod voluptatem, tempora ex voluptates possimus nihil fugit officia dolor eveniet deserunt labore magnam ullam, fugiat, id esse hic nobis? Quo aut a impedit mollitia omnis ex enim nesciunt, quis unde, qui, rem veritatis! Reiciendis nostrum quo corrupti soluta doloribus corporis nemo porro est maiores, suscipit iure sed officiis delectus, natus impedit, unde voluptate? Debitis culpa minima quidem, quaerat aperiam vel voluptatum veniam, enim quia in corporis mollitia. Vero fugit magnam esse reprehenderit inventore, obcaecati excepturi exercitationem eum libero qui ducimus, voluptatem, itaque harum commodi sequi debitis similique voluptatibus odio beatae aut aliquam tempore non ut tenetur. Minus beatae maxime eveniet porro voluptatem inventore nisi, atque ipsam veniam sequi dolor doloribus ab neque fugiat, illum ducimus magni a. Expedita et maiores quam reiciendis assumenda ipsa rerum dignissimos earum molestiae, nihil quod nobis numquam impedit? Praesentium assumenda accusantium earum repellendus voluptate quasi ut enim accusamus delectus id voluptatibus, adipisci architecto sequi, quaerat fugiat officia. Aliquid quaerat ut sapiente quasi eos aspernatur, officiis ad cum, perferendis distinctio at temporibus quidem beatae, corrupti tempora. Officia commodi nemo ex esse sint architecto non dolorum voluptate neque quas dignissimos magnam, eligendi eveniet. Non, nisi quibusdam odio eos, dicta quos qui incidunt praesentium, fugiat officia illum explicabo maiores amet voluptatum corporis nesciunt. Quibusdam distinctio quis quaerat vero doloremque tempora ducimus odit explicabo dolor, sapiente rem nostrum dignissimos voluptates molestias totam pariatur neque earum maxime dolorum dicta similique harum! Ipsa veniam in dolor corrupti minima nulla officia natus aperiam libero possimus! Eos incidunt esse maxime expedita cupiditate ipsa nisi?
+    </div>
+    <p class="mycont">
+        I am another container
+    </p>
+</body>
+
+</html>
+<!-- /*In computer vmin is height and In mobile vmin is width-->
+<!-- vh and vw is not supported in Internet Explorer 9 and earlier versions. -->
+<!-- vmin is used to set the width and height of an element to a percentage of the viewport's smaller dimension. -->
+<!-- vmax is used to set the width and height of an element to a percentage of the viewport's larger dimension. -->
+<!-- vh and vw is used to set the height and width of an element to a percentage of the viewport's height and width. -->
+<!-- Comprehensive list 
+ <source> https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units -->

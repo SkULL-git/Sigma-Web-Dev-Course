@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More On Selectors</title>
+    <style>
+        /* .box:first-child {
+            background-color: red;
+        } */
+        /* .box::first-line {
+            color: rgb(177, 126, 23);
+        } */
+        /* .boxes * {
+            color: blue;
+            border: 2px solid black;
+        }
+
+        p,
+        a,
+        .box,
+        [data-color="primary"] {
+            padding-top: 45px;
+        } */
+        /* .box:nth-child(even){ */
+        /* .box:nth-child(odd){
+            background-color: blue;
+        } */
+          /* .box:last-child(1){
+            background-color: rgb(139, 69, 69);
+          } */
+           .boxes::before {
+            content: "Shivam is a good boy";
+            color: red;
+            font-size: 20px;
+           }
+           .boxes::after {
+            content: "Welcome to the world of sigma web development";
+            color: green;
+            font-size: 20px;
+           }
+           ::selection{
+            background-color: black;
+            color: aqua;
+           }
+           .box::first-letter{
+            color: palevioletred;
+            font-size: 45px;
+           }
+           input::placeholder{
+            color: rgb(74, 28, 58);
+            font-size: 15px;
+              font-weight: bold;
+           }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">Hey I am a box</div>
+        <div class="box">Hey I am a box</div>
+        <div class="box">Hey I am a box</div>
+        <input class="input" type="text" placeholder="Enter your name">
+    </div>
+</body>
+
+</html>

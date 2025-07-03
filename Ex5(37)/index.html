@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        /* Importing Poppins font from Google Fonts */
+        /* Setting up CSS variables for colors */
+        :root {
+            --primary-color: rgb(22, 22, 21);
+            --text-color: rgb(24, 20, 20);
+            --secondary-color: rgb(14, 18, 12);
+        }
+
+        body {
+            background-color: var(--secondary-color)
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul Li {
+            list-style: none;
+            display: inline;
+            padding: 23px;
+            margin: 0 30px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: rgb(246, 254, 245);
+        }
+
+        ul li a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            top: 0;
+            font-family: Poppins, sans-serif;
+            background-color: var(--primary-color);
+            padding: 12px 0px;
+            font-weight: bold;
+            color: var(--text-color);
+            font-size: 15px;
+        }
+
+        .box {
+            border: 2px solid black;
+            margin: 7px;
+            height: 570px;
+            background-color: rgb(8, 184, 8);
+            display: flex;
+        }
+
+        .div1 {
+            border: 2px solid black;
+            margin: 20px;
+            background-color: pink;
+            width: 700px;
+        }
+
+        .div2 {
+            background-color: rgb(146, 146, 238);
+        }
+
+        .box3 {
+            border: 2px solid black;
+            margin: 25px;
+            height: 100px;
+            background-color: rgb(7, 7, 7);
+            display: flex;
+        }
+
+        .div3 {
+            border: 3px solid white;
+            color: white;
+            margin: auto;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 20px;
+            height: 60px;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo {
+            margin: 11px;
+            display: flex;
+            justify-content: flex-end;
+            overflow: auto;
+        }
+
+        img {
+            position: fixed;
+            bottom: 0;
+        }
+
+        footer {
+            background-color: rgb(235, 216, 216);
+            padding: 5px;
+            text-align: center;
+            color: rgb(17, 16, 16);
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Contact</a></li>
+                    <li><a href="/">services</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="box">
+        <div class="div1"></div>
+        <div class="div1 div2"></div>
+    </div>
+    <div class="box3">
+        <div class="div3">Welcome to Mysore-Jaipur Express</div>
+    </div>
+    <div class="logo">
+        <img src="https://ddesignplus.com/wp-content/uploads/2014/12/Circular-Logo-1022x1024.png" alt="logo"
+            height="70">
+    </div>
+    <footer>
+        &copy;2025 All Rights Reserved
+    </footer>
+</body>
+
+</html>
